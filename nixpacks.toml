@@ -1,0 +1,14 @@
+[dependencies]
+python = { version = "3.12.1", type = "build-input" }
+certifi = "2023.11.17"
+charset-normalizer = "3.3.2"
+config = "0.5.1"
+emoji = "2.9.0"
+greenlet = "3.0.3"
+idna = "3.6"
+pyTelegramBotAPI = "4.14.1"
+SQLAlchemy = "2.0.23"
+telebot = "0.0.5"
+
+[start]
+cmd = "python3.12 telbot.py"
